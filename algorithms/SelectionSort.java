@@ -1,5 +1,6 @@
 package algorithms;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class SelectionSort {
@@ -22,9 +23,7 @@ public class SelectionSort {
 
         // Output the sorted array
         System.out.println("Sorted array:");
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
+        System.out.println(Arrays.toString(arr));
 
         sc.close();
     }
